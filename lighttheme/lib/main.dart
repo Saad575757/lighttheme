@@ -57,7 +57,9 @@ class _HomepageState extends State<Homepage> {
             children: [
               Text("Click to Change light theme", style: TextStyle(fontSize: 20),),
 
-             Switch(value: _switchvalue,activeColor: Colors.amber, activeTrackColor: Colors.blue ,onChanged: (newValue){
+             Switch(value: _switchvalue,activeColor: Colors.amber,
+              activeTrackColor: Colors.blue ,
+              onChanged: (newValue){
               setState(() {
                  _switchvalue = newValue;
               });
