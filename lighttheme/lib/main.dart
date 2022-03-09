@@ -67,6 +67,7 @@ class _HomepageState extends State<Homepage> {
             ],
           ),
         ),
+        drawer: Drawer(),
       ),
     );
   }
